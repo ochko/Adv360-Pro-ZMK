@@ -40,7 +40,7 @@
 
         default_layer {
             bindings = <
- &kp CAPSLOCK     &kp N1         &kp N2    &kp N3     &kp N4  &kp N5                      &tog 1                                                                                       &mo 3  &kp N6  &kp N7     &kp N8    &kp N9    &kp N0    &kp F3
+ &kp CAPSLOCK     &kp N1         &kp N2    &kp N3     &kp N4  &kp N5                      &tog 1                                                                                       &mo 3  &kp N6  &kp N7     &kp N8    &kp N9    &kp N0    &kp F24
       &kp TAB      &kp Q          &kp W     &kp E      &kp R   &kp T                 &macro_ltgt                                                                               &macro_braces   &kp Y   &kp U      &kp I     &kp O     &kp P  &kp MINUS
     &kp EQUAL      &kp A          &kp S     &kp D      &kp F   &kp G              &macro_dquotes      &kp LCMD        &kp TAB                  &kp RIGHT_CONTROL   &kp RCMD  &macro_brackets   &kp H   &kp J      &kp K     &kp L  &kp SEMI    &kp SQT
     &sk LSHFT      &kp Z          &kp X     &kp C      &kp V   &kp B                                            &kp BACKSPACE                            &kp TAB                               &kp N   &kp M  &kp COMMA   &kp DOT  &kp FSLH  &sk RSHFT
@@ -50,11 +50,11 @@
 
         layer_dvorak {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &kp SQT  &kp COMMA   &kp DOT  &kp P  &kp Y            &trans                                                  &trans  &kp F  &kp G  &kp C  &kp R  &kp L  &trans
- &trans  &kp A  &kp O  &kp E  &kp U  &kp I            &trans  &trans  &trans                  &trans  &trans  &trans  &kp D  &kp H  &kp T  &kp N  &kp S  &kp BACKSLASH
- &trans  &kp SEMI  &kp Q  &kp J  &kp K  &kp X                            &trans                  &trans                  &kp B  &kp M  &kp W  &kp V  &kp Z  &trans
- &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+ &trans    &trans     &trans   &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans     &trans
+ &trans   &kp SQT  &kp COMMA  &kp DOT   &kp P   &kp Y            &trans                                                  &trans   &kp F   &kp G   &kp C   &kp R   &kp L  &kp MINUS
+ &trans     &kp A      &kp O    &kp E   &kp U   &kp I            &trans  &trans  &trans                  &trans  &trans  &trans   &kp D   &kp H   &kp T   &kp N   &kp S   &kp FSLH
+ &trans  &kp SEMI      &kp Q    &kp J   &kp K   &kp X                            &trans                  &trans                   &kp B   &kp M   &kp W   &kp V   &kp Z     &trans
+ &trans    &trans     &trans   &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans     &trans
             >;
         };
 
