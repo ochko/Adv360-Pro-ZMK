@@ -2,7 +2,7 @@ macro_cmdtab: macro_cmdtab{
 compatible = "zmk,behavior-macro";
 label = "macro_cmdtab";
 #binding-cells = <0>;
-bindings = <&kp LEFT_COMMAND>, <&kp TAB>;
+bindings = <&sk LEFT_COMMAND>, <&kp TAB>;
 };
 macro_ltgt: macro_ltgt{
 compatible = "zmk,behavior-macro";
