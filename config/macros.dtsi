@@ -1,3 +1,9 @@
+macro_cmd_opt_t: macro_cmd_opt_t{
+compatible = "zmk,behavior-macro";
+label = "macro_cmd_opt_t";
+#binding-cells = <0>;
+bindings = <&sk LEFT_COMMAND>, <&sk LEFT_ALT>, <&kp T>;
+};
 macro_cmdtab: macro_cmdtab{
 compatible = "zmk,behavior-macro";
 label = "macro_cmdtab";
