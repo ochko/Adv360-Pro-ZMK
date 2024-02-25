@@ -2,13 +2,13 @@ macro_cmd_opt_t: macro_cmd_opt_t{
 compatible = "zmk,behavior-macro";
 label = "macro_cmd_opt_t";
 #binding-cells = <0>;
-bindings = <&sk LEFT_COMMAND>, <&sk LEFT_ALT>, <&kp T>;
+bindings = <&kp LG(LA(T))>;
 };
 macro_cmdtab: macro_cmdtab{
 compatible = "zmk,behavior-macro";
 label = "macro_cmdtab";
 #binding-cells = <0>;
-bindings = <&sk LEFT_COMMAND>, <&kp TAB>;
+bindings = <&kp LG(TAB)>;
 };
 macro_ltgt: macro_ltgt{
 compatible = "zmk,behavior-macro";
